@@ -6,7 +6,6 @@ In the reinas.h file you will find two classes:
   reina: 
   
           -Instances: posx, posy: defines the queen position.
-          
           -Methods:   void pos(int,int): allow us to modify the position of the queen.
                       bool atacaA(reina): return true if the 2 queens are attacking each other.
                       
