@@ -1,7 +1,12 @@
 # Queens_cpp
 Repository with a c++ program where, in a (*N*)x(*N*) chess board  accommodate (*N*) queens on the board without them attacking each other.
+To compile use the command:
 
-In the reinas.h file you will find two classes:
+g++ queens.cpp queens_methods.cpp -o queens.out
+
+in a folder with the 3 files.
+
+In the queens.h file you will find two classes:
 
   queen: 
   
