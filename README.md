@@ -2,11 +2,16 @@
 Repository with a c++ program where, in a (*N*)x(*N*) chess board  accommodate (*N*) queens on the board without them attacking each other.
 
 In the reinas.h file you will find two classes:
+
   reina: 
+  
           -Instances: posx, posy: defines the queen position.
+          
           -Methods:   void pos(int,int): allow us to modify the position of the queen.
                       bool atacaA(reina): return true if the 2 queens are attacking each other.
-  tablero:                   
+                      
+  tablero:      
+  
           -Instances: vector<reina> reinas: is a vector of reinas(queens), it represent the reinas(queens) on the board.
                       int tam_tablero: is the (*N*) value, the size of the board.
                       int n: the number of requested solutions.
