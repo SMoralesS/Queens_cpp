@@ -1,10 +1,5 @@
 # Queens_cpp
 Repository with a c++ program where, in a (*N*)x(*N*) chess board  accommodate (*N*) queens on the board without them attacking each other.
-To compile use the command:
-
-g++ queens.cpp queens_methods.cpp -o queens.out
-
-in a folder with the 3 files.
 
 In the queens.h file you will find two classes:
 
@@ -26,3 +21,9 @@ In the queens.h file you will find two classes:
                       void printQueens(): print the board with ones in the position of the queens.
                       bool attackEachOther(): return true if at least 2 queens in the board are attacking each other.
                       void findSolutions(): find n solutions.
+                      
+To compile use the command:
+
+g++ queens.cpp queens_methods.cpp -o queens.out
+
+in a folder with the 3 files.
